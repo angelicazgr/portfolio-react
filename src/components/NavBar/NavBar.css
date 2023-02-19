@@ -1,0 +1,19 @@
+.nav-bar-root {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items div {
+  margin-right: 4px;
+}
