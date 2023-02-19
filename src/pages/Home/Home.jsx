@@ -3,6 +3,10 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 
 import IntroVideo from "../../assets/intro.mp4";
+import CapioThumbnail from "../../assets/capio-thumbnail.svg";
+import TeaThumbnail from "../../assets/tea-thumbnail.svg";
+
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -15,10 +19,10 @@ const Home = () => {
         </video>
       </div>
       <div>
-        <div>Project 1</div>
-        <div>Project 2</div>
-        <div>Project 3</div>
-        <div>Project 4</div>
+        <img src={CapioThumbnail} alt="Logo" className="project-image" />
+        <img src={TeaThumbnail} alt="Logo" className="project-image" />
+        <img src={CapioThumbnail} alt="Logo" className="project-image" />
+        <img src={TeaThumbnail} alt="Logo" className="project-image" />
       </div>
       <div>
         <div>email</div>
