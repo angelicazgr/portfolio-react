@@ -1,0 +1,12 @@
+.photobook-page {
+  background-color: #686ba6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.photobook-page-slide-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
