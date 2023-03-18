@@ -1,8 +1,6 @@
 .photobook-page {
   background-color: #686ba6;
   padding: 10px;
-  display: flex;
-  align-items: center;
 }
 
 .photobook-page-slide-image {

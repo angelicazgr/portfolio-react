@@ -20,6 +20,8 @@ import Page15 from "../../assets/photobook/page-15.jpg";
 import Page16 from "../../assets/photobook/page-16.jpg";
 import Page17 from "../../assets/photobook/page-17.jpg";
 
+import NavBar from "../../components/NavBar/NavBar";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -28,6 +30,7 @@ import "./Photobook.css";
 const Photobook = () => {
   return (
     <div className="photobook-page">
+      <NavBar />
       <Swiper
         cssMode={true}
         navigation={true}
