@@ -1,0 +1,21 @@
+.about-root {
+  /* height: 100vh; */
+}
+
+.about-container {
+  padding: 100px 30px 0 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-photo {
+  width: 700px;
+  height: 1000px;
+  border-radius: 20%;
+}
+
+.about-info {
+  color: #d9886a;
+  max-width: 60ch;
+  font-size: 24px;
+}
