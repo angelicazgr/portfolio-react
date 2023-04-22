@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import Logo from "../../assets/logo.svg";
 
@@ -10,12 +11,12 @@ const NavBar = () => {
     <div className="nav-bar-root">
       <img src={Logo} alt="Logo" className="logo" />
       <div className="nav-items">
-        <Link to="/" className="nav-item">
+        <HashLink to="/#top" className="nav-item">
           Home
-        </Link>
-        <Link to="/projects" className="nav-item">
+        </HashLink>
+        <HashLink to="/#projects" className="nav-item">
           Projects
-        </Link>
+        </HashLink>
         <Link to="/contact" className="nav-item">
           Contact
         </Link>
