@@ -38,6 +38,7 @@ const Photobook = () => {
         mousewheel={true}
         keyboard={true}
         centeredSlides={true}
+        loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
       >
         <SwiperSlide>

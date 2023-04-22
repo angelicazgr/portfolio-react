@@ -1,0 +1,19 @@
+.quotes-slider-container {
+  padding-top: 100px;
+}
+
+.quotes-slide-image {
+  width: 100%;
+  height: calc(100vh - 110px);
+  object-fit: contain;
+}
+
+/* Swiper overwrite styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #686ba6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #d9886a;
+}
