@@ -41,3 +41,7 @@
   background-color: #d9886a;
   color: #f2ebee;
 }
+
+.contact-form-submit:hover {
+  cursor: pointer;
+}
