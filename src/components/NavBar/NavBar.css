@@ -2,7 +2,6 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  background-color: #0a1426;
   padding: 16px;
   position: fixed;
   top: 0;
