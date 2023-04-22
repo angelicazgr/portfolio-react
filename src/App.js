@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Photobook from "./pages/Photobook/Photobook";
 import Quotes from "./pages/Quotes/Quotes";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/photobook" element={<Photobook />} />
         <Route path="/about" element={<About />} />
         <Route path="/quotes" element={<Quotes />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
