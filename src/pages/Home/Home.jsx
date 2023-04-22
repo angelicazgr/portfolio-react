@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <div>
+      <div className="home-video-container">
         <video width="auto" height="auto" autoPlay loop muted>
           <source src={IntroVideo} type="video/mp4" />
           Your browser does not support the video tag.
