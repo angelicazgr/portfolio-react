@@ -47,15 +47,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div>
-        <div>email</div>
-        <div>subject</div>
-        <div>message</div>
-        <div>send</div>
-      </div>
-      <div>
-        <div>footer</div>
-      </div>
     </div>
   );
 };
