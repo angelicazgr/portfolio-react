@@ -33,13 +33,13 @@ const Home = () => {
               <div>Brand Indentity</div>
             </div>
           </Link>
-          <Link to="/capio">
+          <Link to="/quotes">
             <div className="home-project-item">
               <div className="home-project-title">Quotes</div>
               <div>Posters</div>
             </div>
           </Link>
-          <Link to="/capio">
+          <Link to="/tearoot">
             <div className="home-project-item">
               <div className="home-project-title">Tearoot</div>
               <div>Packaging</div>
