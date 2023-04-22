@@ -1,13 +1,49 @@
-.project-image {
-  width: 150px;
-  height: 150px;
-}
-
-.home-video-container {
+.home-root {
   background-color: #0a1426;
 }
 
 .home-video-container video {
   width: 100%;
   height: 100vh;
+}
+
+.home-project-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: repeat(2, 400px);
+  grid-gap: 5%;
+}
+
+.home-project-grid a {
+  text-decoration: none;
+}
+
+.home-project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  padding: 16px;
+  background-color: #f2ebee;
+  padding: 5%;
+  border-radius: 20%;
+}
+
+.home-project-item div {
+  text-align: center;
+  color: #d9886a;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.home-project-item .home-project-title {
+  font-size: 42px;
+  color: #686ba6;
 }
