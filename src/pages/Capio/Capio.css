@@ -1,0 +1,52 @@
+.capio-container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.capio-identity-elements {
+  padding-right: 60px;
+  margin-bottom: 30px;
+}
+
+.capio-icon {
+  width: 110px;
+  height: auto;
+  margin-right: 24px;
+}
+.capio-logo {
+  width: 400px;
+  height: auto;
+}
+
+.capio-description {
+  color: #d9886a;
+  max-width: 55ch;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.capio-envelope {
+  width: 800px;
+  margin-bottom: 30px;
+}
+
+.capio-paper {
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.cards-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.capio-card {
+  width: 250px;
+  height: auto;
+}
+
+.capio-card:hover {
+  cursor: pointer;
+}
