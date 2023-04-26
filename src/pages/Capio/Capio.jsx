@@ -5,8 +5,7 @@ import Flippy, { FrontSide, BackSide } from "react-flippy";
 import NavBar from "../../components/NavBar/NavBar";
 import CapioIcon from "../../assets/capio/icon.svg";
 import CapioLogo from "../../assets/capio/logo.svg";
-import Envelope from "../../assets/capio/envelope.svg";
-import Paper from "../../assets/capio/paper.svg";
+import CapioStationary from "../../assets/capio/capioStationary.jpg";
 import BankCard1Front from "../../assets/capio/bank-card-1-front.svg";
 import BankCard1Back from "../../assets/capio/bank-card-1-back.svg";
 import BankCard2Front from "../../assets/capio/bank-card-2-front.svg";
@@ -41,10 +40,11 @@ const Capio = () => {
           </p>
         </div>
         <div>
-          <img src={Envelope} alt="capio envelope" className="capio-envelope" />
-        </div>
-        <div>
-          <img src={Paper} alt="capio mail paper" className="capio-paper" />
+          <img
+            src={CapioStationary}
+            alt="capio stationary"
+            className="capio-stationary"
+          />
         </div>
         <div className="cards-display">
           <div>
