@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import Page1 from "../../assets/photobook/photobook1.jpg";
 import Page2 from "../../assets/photobook/photobook2.jpg";
@@ -24,6 +25,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./Photobook.css";
 
 const Photobook = () => {
@@ -41,112 +43,128 @@ const Photobook = () => {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
       >
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page1}
             alt="page-2"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page2}
             alt="page-3"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page3}
             alt="page-4"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page4}
             alt="page-5"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page5}
             alt="page-6"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page6}
             alt="page-7"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page7}
             alt="page-8"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page8}
             alt="page-9"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page9}
             alt="page-10"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page10}
             alt="page-12"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page11}
             alt="page-13"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page12}
             alt="page-14"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page13}
             alt="page-15"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page14}
             alt="page-16"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page15}
             alt="page-17"
             className="photobook-page-slide-image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <LazyLoadImage
+            effect="blur"
             src={Page16}
             className="photobook-page-slide-image"
             alt="page-16"
