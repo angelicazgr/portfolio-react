@@ -146,7 +146,11 @@ const Photobook = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Page16} className="photobook-page-slide-image" />
+          <img
+            src={Page16}
+            className="photobook-page-slide-image"
+            alt="page-16"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
