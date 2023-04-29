@@ -9,7 +9,6 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div className="nav-bar-root">
-      <img src={Logo} alt="Logo" className="logo" />
       <div className="nav-items">
         <HashLink to="/#top" className="nav-item">
           Home
@@ -17,11 +16,12 @@ const NavBar = () => {
         <HashLink to="/#projects" className="nav-item">
           Projects
         </HashLink>
-        <Link to="/contact" className="nav-item">
-          Contact
-        </Link>
+        <img src={Logo} alt="Logo" className="logo" />
         <Link to="/about" className="nav-item">
           About
+        </Link>
+        <Link to="/contact" className="nav-item">
+          Contact
         </Link>
       </div>
     </div>
