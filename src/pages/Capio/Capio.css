@@ -1,42 +1,52 @@
 .capio-container {
   padding-top: 150px;
+  margin-left: 1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1%;
+}
+
+.capio-identity-elements {
+  padding-right: 60px;
+}
+
+.capio-icon {
+  width: 85px;
+  height: auto;
+  margin-right: 24px;
+}
+.capio-logo {
+  width: 300px;
+  height: auto;
+}
+
+.capio-description {
+  grid-row: 2/4;
+  color: #f2ebee;
+  font-size: 18px;
+  margin-top: -250px;
+}
+
+.capio-stationary {
+  grid-row: 1 / span 3;
+}
+
+.capio-stationary-img {
+  width: 1500px;
+}
+
+.cards-display {
+  grid-row: 1/4;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.capio-identity-elements {
-  padding-right: 60px;
-  margin-bottom: 30px;
+.flip-it {
+  color: #f2ebee;
+  font-size: 38px;
 }
-
-.capio-icon {
-  width: 110px;
-  height: auto;
-  margin-right: 24px;
-}
-.capio-logo {
-  width: 400px;
-  height: auto;
-}
-
-.capio-description {
-  color: #d9886a;
-  max-width: 55ch;
-  font-size: 24px;
-  margin-bottom: 30px;
-}
-
-.capio-stationary {
-  width: 800px;
-  margin-bottom: 30px;
-}
-
-.cards-display {
-  display: flex;
-  justify-content: space-around;
-}
-
 .capio-card {
   width: 250px;
   height: auto;

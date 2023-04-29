@@ -25,10 +25,8 @@ const Capio = () => {
         </div>
         <div className="capio-description">
           <p>
-            Η εταιρία Capio είναι ένα ανταλλακτήριο κρυπτονομισμάτων (crypto).
-          </p>
-          <p>
-            Η έμπνευση του ονόματος προέρχεται από το λατινικό ρήμα capio που
+            Η εταιρία Capio είναι ένα ανταλλακτήριο κρυπτονομισμάτων (crypto). Η
+            έμπνευση του ονόματος προέρχεται από το λατινικό ρήμα capio που
             σημαίνει λαμβάνω (παίρνω). Η εταιρία, αν και δραστηριοποιείται στον
             ψηφιακό κόσμο, ενδιαφέρεται για την κοινωνία και το περιβάλλον.{" "}
           </p>{" "}
@@ -39,68 +37,65 @@ const Capio = () => {
             χαρακτήρα της εταιρίας.
           </p>
         </div>
-        <div>
+        <div className="capio-stationary">
           <img
             src={CapioStationary}
             alt="capio stationary"
-            className="capio-stationary"
+            className="capio-stationary-img"
           />
         </div>
         <div className="cards-display">
-          <div>
-            <Flippy flipOnClick={true} flipDirection="vertical">
-              <FrontSide>
-                <img
-                  src={BusinessCardFront}
-                  alt="capio business card"
-                  className="capio-card"
-                />
-              </FrontSide>
-              <BackSide>
-                <img
-                  src={BusinessCardBack}
-                  alt="capio business card"
-                  className="capio-card"
-                />
-              </BackSide>
-            </Flippy>
-          </div>
-          <div>
-            <Flippy flipOnClick={true} flipDirection="vertical">
-              <FrontSide>
-                <img
-                  src={BankCard1Front}
-                  alt="capio business card"
-                  className="capio-card"
-                />
-              </FrontSide>
-              <BackSide>
-                <img
-                  src={BankCard1Back}
-                  alt="capio business card"
-                  className="capio-card"
-                />
-              </BackSide>
-            </Flippy>
-          </div>
-          <div>
-            <Flippy flipOnClick={true} flipDirection="vertical">
-              <FrontSide>
-                <img
-                  src={BankCard2Front}
-                  alt="capio business card"
-                  className="capio-card"
-                />
-              </FrontSide>
-              <BackSide>
-                <img
-                  src={BankCard2Back}
-                  alt="capio business card"
-                  className="capio-card"
-                />
-              </BackSide>
-            </Flippy>
-          </div>
+          <div className="flip-it">Flip it &#8595;</div>
+          <Flippy flipOnClick={true} flipDirection="vertical">
+            <FrontSide>
+              <img
+                src={BusinessCardFront}
+                alt="capio business card"
+                className="capio-card"
+              />
+            </FrontSide>
+            <BackSide>
+              <img
+                src={BusinessCardBack}
+                alt="capio business card"
+                className="capio-card"
+              />
+            </BackSide>
+          </Flippy>
+
+          <Flippy flipOnClick={true} flipDirection="vertical">
+            <FrontSide>
+              <img
+                src={BankCard1Front}
+                alt="capio business card"
+                className="capio-card"
+              />
+            </FrontSide>
+            <BackSide>
+              <img
+                src={BankCard1Back}
+                alt="capio business card"
+                className="capio-card"
+              />
+            </BackSide>
+          </Flippy>
+
+          <Flippy flipOnClick={true} flipDirection="vertical">
+            <FrontSide>
+              <img
+                src={BankCard2Front}
+                alt="capio business card"
+                className="capio-card"
+              />
+            </FrontSide>
+            <BackSide>
+              <img
+                src={BankCard2Back}
+                alt="capio business card"
+                className="capio-card"
+              />
+            </BackSide>
+          </Flippy>
         </div>
       </div>
     </div>
