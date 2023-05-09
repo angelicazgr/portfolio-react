@@ -1,3 +1,24 @@
+.photobook-details {
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(6, 0.5fr);
+  grid-gap: 1%;
+  align-items: center;
+}
+.icon-597 {
+  justify-self: end;
+  grid-row: 1/-1;
+}
+.logo-597 {
+  width: 60%;
+}
+
+.photobook-info {
+  color: #f2ebee;
+  font-size: 20px;
+}
+
 .photobook-page {
   padding: 10px;
 }

@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
+import logo597 from "../../assets/photobook/597.svg";
 import Page1 from "../../assets/photobook/photobook1.jpg";
 import Page2 from "../../assets/photobook/photobook2.jpg";
 import Page3 from "../../assets/photobook/photobook3.jpg";
@@ -32,6 +33,28 @@ const Photobook = () => {
   return (
     <div className="photobook-page">
       <NavBar />
+      <div className="photobook-details">
+        <div className="icon-597">
+          <img src={logo597} alt="597 logo" className="logo-597" />
+        </div>
+        <div className="photobook-info">
+          A photo journey in Thessaloniki and Istanbul. The distance between
+          these cities is just 597 km.
+        </div>
+        <div className="photobook-info">
+          {" "}
+          &quot;Time is longest distance between two places &quot;, Tennessee
+          Williams, The Glass Menagerie
+        </div>
+        <div></div>
+        <div></div>
+        <div className="photobook-info">
+          597 χλμ. χωρίζουν τη Θεσσαλονίκη από την Κωνσταντινούπολη.
+        </div>
+        <div className="photobook-info">
+          Ένα ταξίδι σε δύο πόλεις που τις έδεσε η ιστορία.
+        </div>
+      </div>
       <Swiper
         cssMode={true}
         navigation={true}
