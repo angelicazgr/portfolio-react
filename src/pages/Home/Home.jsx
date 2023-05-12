@@ -22,28 +22,16 @@ const Home = () => {
       <div className="home-project-container" id="projects">
         <div className="home-project-grid">
           <Link to="/photobook">
-            <div className="home-project-item">
-              <div className="home-project-title">597</div>
-              <div>Photobook</div>
-            </div>
+            <div className="home-project-item">Photobook</div>
           </Link>
           <Link to="/capio">
-            <div className="home-project-item">
-              <div className="home-project-title">Capio</div>
-              <div>Brand Indentity</div>
-            </div>
+            <div className="home-project-item">Brand Indentity</div>
           </Link>
           <Link to="/quotes">
-            <div className="home-project-item">
-              <div className="home-project-title">Quotes</div>
-              <div>Posters</div>
-            </div>
+            <div className="home-project-item">Posters</div>
           </Link>
           <Link to="/tearoot">
-            <div className="home-project-item">
-              <div className="home-project-title">Tearoot</div>
-              <div>Packaging</div>
-            </div>
+            <div className="home-project-item">Motion design</div>
           </Link>
         </div>
       </div>
