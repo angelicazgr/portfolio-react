@@ -1,7 +1,7 @@
 import React from "react";
 
 import NavBar from "../../components/NavBar/NavBar";
-import lineArt from "../../assets/contact-art.svg";
+import lineArt from "../../assets/contact.svg";
 import "./Contact.css";
 
 const Contact = () => {
@@ -56,11 +56,9 @@ const Contact = () => {
               className="contact-form-textarea"
             />
           </div>
-
           <input type="submit" value="Submit" className="contact-form-submit" />
         </form>
       </div>
-      <img src={lineArt} alt="line art" className="contact-line-art" />
     </div>
   );
 };
