@@ -9,55 +9,54 @@ const About = () => {
     <div className="about-root">
       <NavBar />
       <div className="about-container">
-        <div>
-          <img src={myPhoto} alt="Angelica" className="about-photo" />
+        <img src={myPhoto} alt="Angelica" className="about-photo" />
+        <div className="profile">
+          <p> Junior Web Designer / Developer</p>
+          <p className="profile-accent">&#8680; Who am I? &#8678; </p>
+          <p>
+            A curious, high-energy, and highly motivated individual, with a
+            knowledge of graphic design and coding – with supporting
+            certifications available on demand, actively seeking a position as a
+            junior UI/UX designer or UI developer to actively get involved with
+            a young and dynamic team.
+          </p>
         </div>
-        <div className="about-info">
+        <div>
+          <p className="profile-accent">Education</p>
+          <p>2006-2011, Software engineering, Tei Serron, Greece</p>
+          <p>2011-2013, Customs brokerage, Ministry of Economics, Greece</p>
+          <p>2021-2024, Graphic design, AKTO college, Greece</p>
+        </div>
+        <div className="personal-info">
           <p>
-            I worked as a freelance customs broker for 8 years and I am
-            currently learning graphic design and software development.
+            <b className="profile-accent">Email:</b> angelicazografou@gmail.com
           </p>
           <p>
-            As a freelance customs broker, my main role was to consult my
-            clients for the most cost-effective ways that they could use for
-            their projects and also represent them at the customs authorities.
+            <b className="profile-accent">Location:</b> Thessaloniki,Greece
           </p>
+        </div>
+        <div>
+          <p className="profile-accent">Skills</p>
+          <p>HTML, CSS, Javascript, React, Git, GitHub</p>
+          <p>Figma, Adobe Ai, Ps, Id, Ae</p>
           <p>
-            Moreover, as I value accuracy, I always searched for new regulations
-            that could apply to the requested products. Being updated can really
-            make a difference because laws and regulations continuously change.
-            I like learning, so these circumstances never frustrate me.
+            Problem-solving, Time management, Critical thinking,
+            Decision-making, Organizational, Adaptability, Creativity,
+            Resourcefulness
           </p>
-
+        </div>
+        <div>
+          <p className="profile-accent">Languages</p>
+          <p>Greek &#9866; Native </p>
+          <p>Turkish &#9866; Proficient </p>
+          <p>English &#9866; Intermediate </p>
+        </div>
+        <div>
+          <p className="profile-accent">Work experience</p>
+          <p>2014-2020, Freelance customs broker</p>
           <p>
-            Furthermore, as I worked with more than 25 companies, I cooperated
-            with very different teams and departments to accomplish successful
-            projects. The teams that I worked with were from financial, supply,
-            import, export, and transportation departments. As these departments
-            had different needs, I focused on improving my knowledge by
-            attending seminars on accounting for taxes and duties and by
-            learning the Turkish language, as Turkey was the main import country
-            for many of my clients. Being a Turkish speaker gave me the chance
-            to communicate with the exporting companies and solve customs
-            issues. In addition, this affected in a positive way all the
-            transport problems.
-          </p>
-          <p>
-            Overall, taking part in all these projects and working in an
-            international environment helped me to communicate better with
-            individuals and teams. I strongly believe that finding a solution to
-            a problem is not enough. It is also necessary to be communicated in
-            a clear way, so everyone can understand its value.
-          </p>
-
-          <p>
-            Late in 2020, I decided to make a career change, as I had studied
-            software engineering and I never had the chance to work in this
-            field. Currently, I am refreshing my coding skills and also, I am a
-            graphic design student in AKTO college, in collaboration with
-            Middlesex University, London. I believe that, combining this
-            knowledge, I would be able to provide interesting solutions in the
-            development process.
+            I worked with more than 25 companies from Greece and abroad as a
+            customs representative for import and export procedures.
           </p>
         </div>
       </div>
