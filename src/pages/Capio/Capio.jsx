@@ -23,27 +23,20 @@ const Capio = () => {
           <img src={CapioIcon} alt="capio icon" className="capio-icon" />
           <img src={CapioLogo} alt="capio logo" className="capio-logo" />
         </div>
+
         <div className="capio-description">
-          <p>
-            Η εταιρία Capio είναι ένα ανταλλακτήριο κρυπτονομισμάτων (crypto). Η
-            έμπνευση του ονόματος προέρχεται από το λατινικό ρήμα capio που
-            σημαίνει λαμβάνω (παίρνω). Η εταιρία, αν και δραστηριοποιείται στον
-            ψηφιακό κόσμο, ενδιαφέρεται για την κοινωνία και το περιβάλλον.{" "}
-          </p>{" "}
-          <p>
-            Για αυτόν τον λόγο ακολουθήθηκε μια σχεδιαστική προσέγγιση, η οποία
-            συνδυάζει το τεχνολογικό με το ανθρώπινο στοιχείο. Επιπλέον η
-            χρωματική παλέτα που επιλέχθηκε δίνει έμφαση στον οικολογικό
-            χαρακτήρα της εταιρίας.
-          </p>
+          Η εταιρία Capio είναι ένα ανταλλακτήριο κρυπτονομισμάτων (crypto). Η
+          έμπνευση του ονόματος προέρχεται από το λατινικό ρήμα capio που
+          σημαίνει λαμβάνω (παίρνω). Η εταιρία, αν και δραστηριοποιείται στον
+          ψηφιακό κόσμο, ενδιαφέρεται για την κοινωνία και το περιβάλλον.
         </div>
-        <div className="capio-stationary">
-          <img
-            src={CapioStationary}
-            alt="capio stationary"
-            className="capio-stationary-img"
-          />
+        <div className="capio-description">
+          Για αυτόν τον λόγο ακολουθήθηκε μια σχεδιαστική προσέγγιση, η οποία
+          συνδυάζει το τεχνολογικό με το ανθρώπινο στοιχείο. Επιπλέον η
+          χρωματική παλέτα που επιλέχθηκε δίνει έμφαση στον οικολογικό χαρακτήρα
+          της εταιρίας.
         </div>
+
         <div className="cards-display">
           <div className="flip-it">Flip it &#8595;</div>
           <Flippy flipOnClick={true} flipDirection="vertical">
@@ -96,6 +89,13 @@ const Capio = () => {
               />
             </BackSide>
           </Flippy>
+        </div>
+        <div className="capio-stationary">
+          <img
+            src={CapioStationary}
+            alt="capio stationary"
+            className="capio-stationary-img"
+          />
         </div>
       </div>
     </div>

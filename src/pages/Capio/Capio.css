@@ -1,15 +1,19 @@
 .capio-container {
-  padding-top: 150px;
-  margin-left: 1%;
+  width: 1900px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1%;
+  grid-template-columns: 450px repeat(2, 1fr);
+  grid-template-rows: 0.5fr 4fr;
+  grid-gap: 2%;
 }
 
-.capio-identity-elements {
+/*.capio-identity-elements {
   padding-right: 60px;
-}
+  text-align: center;
+  margin-bottom: 2%;
+}*/
 
 .capio-icon {
   width: 85px;
@@ -22,22 +26,20 @@
 }
 
 .capio-description {
-  grid-row: 2/4;
   color: #f2ebee;
   font-size: 18px;
-  margin-top: -250px;
+  max-width: 60ch;
 }
 
 .capio-stationary {
-  grid-row: 1 / span 3;
+  grid-column: 2/4;
 }
 
 .capio-stationary-img {
-  width: 1500px;
+  width: 1400px;
 }
 
 .cards-display {
-  grid-row: 1/4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,4 +56,38 @@
 
 .capio-card:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1537px) {
+  .capio-container {
+    width: 1400px;
+  }
+
+  .capio-stationary-img {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .capio-container {
+    width: 1200px;
+    grid-gap: 1%;
+  }
+  .capio-icon {
+    width: 65px;
+    height: auto;
+    margin-right: 24px;
+  }
+  .capio-logo {
+    width: 250px;
+    height: auto;
+  }
+  .capio-description {
+    font-size: 14px;
+  }
+  .capio-card {
+    width: 150px;
+  }
+  .capio-stationary-img {
+    width: 800px;
+  }
 }
