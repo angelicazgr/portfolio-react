@@ -1,7 +1,7 @@
 import React from "react";
 
 import NavBar from "../../components/NavBar/NavBar";
-import myPhoto from "../../assets/about-photo.jpg";
+import myPhoto from "../../assets/about-photo.png";
 import "./About.css";
 
 const About = () => {
@@ -11,8 +11,8 @@ const About = () => {
       <div className="about-container">
         <img src={myPhoto} alt="Angelica" className="about-photo" />
         <div className="profile">
-          <p> Junior Web Designer / Developer</p>
-          <p className="profile-accent">&#8680; Who am I? &#8678; </p>
+          <div> Junior Web Designer / Developer</div>
+          <p className="profile-accent">Who am I?</p>
           <p>
             A curious, high-energy, and self motivated graphic designer and
             coder.
@@ -30,20 +30,17 @@ const About = () => {
             constantly growing my skills and competences.
           </p>
         </div>
+        <div className="personal-info">
+          <p>angelicazografou@gmail.com</p>
+          <p>Thessaloniki,Greece</p>
+        </div>
         <div>
           <p className="profile-accent">Education</p>
           <p>2021-2024, Graphic design, AKTO college, Greece</p>
           <p>2011-2013, Customs brokerage, Ministry of Economics, Greece</p>
           <p>2006-2011, Software engineering, Tei Serron, Greece</p>
         </div>
-        <div className="personal-info">
-          <p>
-            <b className="profile-accent">Email:</b> angelicazografou@gmail.com
-          </p>
-          <p>
-            <b className="profile-accent">Location:</b> Thessaloniki,Greece
-          </p>
-        </div>
+
         <div>
           <p className="profile-accent">Techincal Skills</p>
           <p>HTML, CSS, Javascript, React, Git, GitHub</p>
