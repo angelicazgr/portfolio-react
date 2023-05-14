@@ -14,18 +14,27 @@ const About = () => {
           <p> Junior Web Designer / Developer</p>
           <p className="profile-accent">&#8680; Who am I? &#8678; </p>
           <p>
-            A curious, high-energy, and highly motivated individual, with a
-            knowledge of graphic design and coding – with supporting
-            certifications available on demand, actively seeking a position as a
-            junior UI/UX designer or UI developer to actively get involved with
-            a young and dynamic team.
+            A curious, high-energy, and self motivated graphic designer and
+            coder.
+          </p>
+          <p>
+            I'm passionate about UI/UX design, applications running on web or
+            mobile, and coding.
+          </p>
+          <p>
+            Moreover, I have experience working, aligning and organising teams
+            in cross-cultural environments and logistic projects.
+          </p>
+          <p>
+            Actively looking for a junior UI/UX designer position while I'm
+            constantly growing my skills and competences.
           </p>
         </div>
         <div>
           <p className="profile-accent">Education</p>
-          <p>2006-2011, Software engineering, Tei Serron, Greece</p>
-          <p>2011-2013, Customs brokerage, Ministry of Economics, Greece</p>
           <p>2021-2024, Graphic design, AKTO college, Greece</p>
+          <p>2011-2013, Customs brokerage, Ministry of Economics, Greece</p>
+          <p>2006-2011, Software engineering, Tei Serron, Greece</p>
         </div>
         <div className="personal-info">
           <p>
@@ -36,20 +45,21 @@ const About = () => {
           </p>
         </div>
         <div>
-          <p className="profile-accent">Skills</p>
+          <p className="profile-accent">Techincal Skills</p>
           <p>HTML, CSS, Javascript, React, Git, GitHub</p>
           <p>Figma, Adobe Ai, Ps, Id, Ae</p>
-          <p>
-            Problem-solving, Time management, Critical thinking,
-            Decision-making, Organizational, Adaptability, Creativity,
-            Resourcefulness
-          </p>
         </div>
         <div>
           <p className="profile-accent">Languages</p>
           <p>Greek &#9866; Native </p>
           <p>Turkish &#9866; Proficient </p>
           <p>English &#9866; Intermediate </p>
+        </div>
+        <div>
+          <p className="profile-accent">Soft Skills</p>
+          <p>Problem-solving, Time management, Critical thinking,</p>
+          <p>Decision-making, Organizational, Adaptability, Creativity,</p>
+          Resourcefulness
         </div>
         <div>
           <p className="profile-accent">Work experience</p>
