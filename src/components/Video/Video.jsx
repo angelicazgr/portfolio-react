@@ -42,9 +42,9 @@ const Video = ({
       return;
     }
 
-    if (inView) {
+    if (inView && autoPlay) {
       videoRef.current.play();
-    } else {
+    } else if (inView === false && autoPlay) {
       videoRef.current.pause();
     }
   }, [inView]);
