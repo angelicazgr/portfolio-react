@@ -34,7 +34,7 @@ const Video = ({
         });
       }
     },
-    [inViewRef]
+    [inViewRef, controls]
   );
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const Video = ({
     } else if (inView === false && autoPlay) {
       videoRef.current.pause();
     }
-  }, [inView]);
+  }, [inView, autoPlay]);
 
   return (
     <video
