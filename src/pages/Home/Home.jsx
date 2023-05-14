@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 
 import IntroVideo from "../../assets/intro.mp4";
+import Video from "../../components/Video/Video";
 //import CapioThumbnail from "../../assets/capio-thumbnail.svg";
 //import TeaThumbnail from "../../assets/tea-thumbnail.svg";
 import { Link } from "react-router-dom";
@@ -14,10 +15,7 @@ const Home = () => {
     <div className="home-root">
       <NavBar />
       <div className="home-video-container" id="top">
-        <video width="auto" height="auto" autoPlay loop muted>
-          <source src={IntroVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <Video src={IntroVideo} />
       </div>
       <div className="home-project-container" id="projects">
         <div className="home-project-grid">
