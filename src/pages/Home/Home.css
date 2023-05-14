@@ -1,4 +1,5 @@
 .home-root {
+  padding-bottom: 20px;
 }
 
 .home-video-container video {
@@ -7,14 +8,19 @@
 
 .home-project-container {
   margin-top: 300px;
+  text-align: center;
+  height: 50vh;
 }
 
 .home-project-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-row-gap: 15%;
-  grid-column-gap: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home-project-header {
+  font-size: 42px;
+  color: #d9886a;
 }
 
 .home-project-grid a {
@@ -22,13 +28,45 @@
 }
 
 .home-project-item {
-  background-color: #f2ebee;
-  padding: 5%;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
 }
 
-.home-project-item {
-  text-align: center;
+.home-project-item-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 42px;
   color: #686ba6;
   font-weight: 500;
+  height: 150px;
+  padding: 0 8px 0 8px;
+}
+
+.home-project-item-cta {
+  transform: translateY(40px);
+  transition: 0.5s;
+  color: #d9886a;
+  opacity: 0;
+}
+
+.home-project-item:hover .home-project-item-cta {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.home-project-item-name {
+  font-size: 24px;
+  height: 50px;
+  color: #d9886a;
 }
