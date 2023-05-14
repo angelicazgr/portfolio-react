@@ -30,7 +30,7 @@ const Home = () => {
           <Link to="/quotes">
             <div className="home-project-item">Posters</div>
           </Link>
-          <Link to="/tearoot">
+          <Link to="/motion">
             <div className="home-project-item">Motion design</div>
           </Link>
         </div>
