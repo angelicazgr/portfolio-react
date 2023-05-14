@@ -7,6 +7,7 @@ import Photobook from "./pages/Photobook/Photobook";
 import Capio from "./pages/Capio/Capio";
 import Quotes from "./pages/Quotes/Quotes";
 import Contact from "./pages/Contact/Contact";
+import Typography from "./pages/Typography/Typography";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/quotes" element={<Quotes />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/motion" element={<Typography />} />
       </Routes>
     </div>
   );

@@ -1,0 +1,13 @@
+.typography-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.typography-text {
+  padding-top: 120px;
+  color: white;
+}
+
+.typography-video {
+  height: 70vh;
+}
