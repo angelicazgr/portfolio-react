@@ -1,7 +1,6 @@
 import React from "react";
 
 import NavBar from "../../components/NavBar/NavBar";
-import lineArt from "../../assets/contact.svg";
 import "./Contact.css";
 
 const Contact = () => {
