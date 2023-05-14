@@ -2,7 +2,16 @@ import { useRef, useCallback, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import "intersection-observer";
 
-const Video = ({ src, ratio = 0 }) => {
+const Video = ({
+  src,
+  className = "",
+  loop = true,
+  muted = true,
+  autoPlay = true,
+  playsInline = true,
+  controls = false,
+  controlsList = "nodownload noremoteplayback",
+}) => {
   const [inViewRef, inView] = useInView({
     threshold: 0.7,
   });
@@ -15,7 +24,7 @@ const Video = ({ src, ratio = 0 }) => {
       // Callback refs, like the one from `useInView`, is a function that takes the node as an argument
       inViewRef(node);
 
-      if (node) {
+      if (node && !controls) {
         node.addEventListener("click", function () {
           if (this.paused) {
             this.play();
@@ -41,7 +50,16 @@ const Video = ({ src, ratio = 0 }) => {
   }, [inView]);
 
   return (
-    <video loop muted autoPlay playsInline ref={setRefs}>
+    <video
+      ref={setRefs}
+      loop={loop}
+      muted={muted}
+      autoPlay={autoPlay}
+      controls={controls}
+      playsInline={playsInline}
+      className={className}
+      controlsList={controlsList}
+    >
       <source src={src} type="video/mp4" />
     </video>
   );
