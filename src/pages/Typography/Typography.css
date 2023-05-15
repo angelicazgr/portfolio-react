@@ -1,13 +1,43 @@
+.typography-root {
+  padding-top: 150px;
+  color: #f2ebee;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typography-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.typography-text-container p {
+  max-width: 65ch;
+  line-height: 1.4;
+}
+
 .typography-logo {
-  width: 120px;
-  height: 120px;
+  width: 300px;
+  height: 250px;
 }
 
 .typography-text {
-  padding-top: 120px;
-  color: white;
+  margin-left: 24px;
 }
 
 .typography-video {
   height: 70vh;
+}
+
+.typography-title {
+  color: #d9886a;
+  font-size: 24px;
+}
+
+.typography-description {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
