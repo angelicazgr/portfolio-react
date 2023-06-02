@@ -17,10 +17,6 @@ const Quotes = () => {
       <div className="quotes-container">
         <div className="quotes-row">
           <div className="quotes-card">
-            <div className="quotes-image-title">Carson</div>
-            <div className="quotes-image-description">
-              Inspired by the extraordinary style of David Carson
-            </div>
             <Zoom>
               <img
                 src={CarsonQuote}
@@ -28,12 +24,12 @@ const Quotes = () => {
                 className="quotes-image"
               />
             </Zoom>
+            <div className="quotes-image-title">Carson</div>
+            <div className="quotes-image-description">
+              Inspired by the remarkable style of David Carson
+            </div>
           </div>
           <div className="quotes-card">
-            <div className="quotes-image-title">Cocteau</div>
-            <div className="quotes-image-description">
-              A different way to portray reflection
-            </div>
             <Zoom>
               <img
                 src={CocteauQuote}
@@ -41,14 +37,14 @@ const Quotes = () => {
                 className="quotes-image"
               />
             </Zoom>
+            <div className="quotes-image-title">Cocteau</div>
+            <div className="quotes-image-description">
+              A different way to portray reflection
+            </div>
           </div>
         </div>
         <div className="quotes-row">
           <div className="quotes-card">
-            <div className="quotes-image-title">Sagmeister</div>
-            <div className="quotes-image-description">
-              Combining sketching with graphic design
-            </div>
             <Zoom>
               <img
                 src={RembrandtQuote}
@@ -56,10 +52,12 @@ const Quotes = () => {
                 className="quotes-image"
               />
             </Zoom>
+            <div className="quotes-image-title">Sagmeister</div>
+            <div className="quotes-image-description">
+              Combining sketching with graphic design
+            </div>
           </div>
           <div className="quotes-card">
-            <div className="quotes-image-title">Warhol</div>
-            <div className="quotes-image-description">Warhol and the media</div>
             <Zoom>
               <img
                 src={WarholQuote}
@@ -67,6 +65,8 @@ const Quotes = () => {
                 className="quotes-image"
               />
             </Zoom>
+            <div className="quotes-image-title">Warhol</div>
+            <div className="quotes-image-description">Warhol and the media</div>
           </div>
         </div>
       </div>
