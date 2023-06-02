@@ -1,12 +1,12 @@
 .typography-root {
+  background-color: #f2ebee;
   padding-top: 150px;
-  color: #f2ebee;
-  font-size: 18px;
+  color: #0a1426;
+  font-size: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .typography-text-container {
   display: flex;
   align-items: center;
@@ -14,6 +14,7 @@
 }
 
 .typography-text-container p {
+  font-weight: 300;
   max-width: 65ch;
   line-height: 1.4;
 }
@@ -32,8 +33,9 @@
 }
 
 .typography-title {
-  color: #d9886a;
-  font-size: 24px;
+  color: #f24b4b;
+  font-size: 30px;
+  font-family: "filmotype-wand", serif;
 }
 
 .typography-description {

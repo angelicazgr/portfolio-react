@@ -12,29 +12,34 @@ const Typography = () => {
     <div className="typography-root">
       <NavBar />
       <div className="typography-text-container">
-        <img
-          src={TypographyLogo}
-          alt="typography logo"
-          className="typography-logo"
-        />
+        <div className="typography-intro">
+          <div className="typography-title">The 25th letter</div>
+          <img
+            src={TypographyLogo}
+            alt="typography logo"
+            className="typography-logo"
+          />
+          <div style={{ fontSize: 22 }} className="typography-title">
+            of the Greek alphabet
+          </div>
+        </div>
         <div className="typography-text">
-          <p className="typography-title">Το 25ο γράμμα</p>
           <p>
-            Το 25ο γράμμα του ελληνικού αλφάβητου κρύβεται κάπου μέσα στη
-            Θεσσαλονίκη.
+            The 25th letter of the Greek alphabet is hidden somewhere in
+            Thessaloniki.
           </p>
           <p>
-            Η αναζήτηση του ξεκινά από το αρχαιολογικό μουσείο της Θεσσαλονίκης.
-            Εκεί ανακαλύπτονται διάφορα γράμματα της αρχαίας ελληνικής γλώσσας
-            που είτε έχουν αλλάξει μορφή είτε έχουν καταργηθεί από τη σύγχρονη
-            ελληνική γλώσσα.
+            His search begins at the archaeological museum of Thessaloniki.
+            Various letters of the ancient Greek language are discovered there.
+            These letters have either changed form or been removed from the
+            modern Greek language.
           </p>
           <p>
-            Έπειτα η έρευνα θα συνεχιστεί σε διάφορα άλλα μνημεία της πόλης ώστε
-            να ελεγχθεί η πιθανότητα το γράμμα αυτό να έχει κρυφτεί σε άλλες
-            γλώσσες της πόλης χωρίς να το έχουμε αντιληφθεί.
+            Then the research will continue in various other monuments of the
+            city. In this way it will be checked if this letter has been hidden
+            in other languages of the city without us realizing it.
           </p>
-          <p>Παρακολουθήστε το ταξίδι αυτό στο παρακάτω βίντεο.</p>
+          <p>Watch this journey in the video below.</p>
         </div>
       </div>
       <Video
