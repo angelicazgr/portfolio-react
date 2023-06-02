@@ -19,6 +19,9 @@
 }
 
 .home-project-header {
+  font-family: "filmotype-wand", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 42px;
   color: #d9886a;
 }
@@ -43,20 +46,22 @@
 }
 
 .home-project-item-title {
+  font-family: "filmotype-wand", serif;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 42px;
-  color: #686ba6;
+  color: #f2ebee;
   font-weight: 500;
   height: 150px;
   padding: 0 8px 0 8px;
 }
 
 .home-project-item-cta {
+  font-size: 24px;
   transform: translateY(40px);
   transition: 0.5s;
-  color: #d9886a;
+  color: #686ba6;
   opacity: 0;
 }
 
