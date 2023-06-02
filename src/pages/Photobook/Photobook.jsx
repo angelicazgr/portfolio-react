@@ -42,17 +42,8 @@ const Photobook = () => {
           these cities is just 597 km.
         </div>
         <div className="photobook-info">
-          {" "}
-          &quot;Time is longest distance between two places &quot;, Tennessee
-          Williams, The Glass Menagerie
-        </div>
-        <div></div>
-        <div></div>
-        <div className="photobook-info">
-          597 χλμ. χωρίζουν τη Θεσσαλονίκη από την Κωνσταντινούπολη.
-        </div>
-        <div className="photobook-info">
-          Ένα ταξίδι σε δύο πόλεις που τις έδεσε η ιστορία.
+          597 χλμ. χωρίζουν τη Θεσσαλονίκη από την Κωνσταντινούπολη. Ένα ταξίδι
+          σε δύο πόλεις που τις έδεσε η ιστορία.
         </div>
       </div>
       <Swiper
