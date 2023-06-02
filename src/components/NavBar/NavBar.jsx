@@ -10,19 +10,22 @@ const NavBar = () => {
   return (
     <div className="nav-bar-root">
       <div className="nav-items">
-        <HashLink to="/#top" className="nav-item">
-          Home
-        </HashLink>
-        <HashLink to="/#projects" className="nav-item">
-          Projects
-        </HashLink>
-        <img src={Logo} alt="Logo" className="logo" />
-        <Link to="/about" className="nav-item">
-          About
-        </Link>
-        <Link to="/contact" className="nav-item">
-          Contact
-        </Link>
+        <div>
+          <HashLink to="/#top" className="nav-logo">
+            <img src={Logo} alt="Logo" className="logo" />
+          </HashLink>
+        </div>
+        <div>
+          <HashLink to="/#projects" className="nav-item">
+            Projects
+          </HashLink>
+          <Link to="/about" className="nav-item">
+            About
+          </Link>
+          <Link to="/contact" className="nav-item">
+            Contact
+          </Link>
+        </div>
       </div>
     </div>
   );
