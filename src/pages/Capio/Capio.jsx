@@ -23,20 +23,17 @@ const Capio = () => {
           <img src={CapioIcon} alt="capio icon" className="capio-icon" />
           <img src={CapioLogo} alt="capio logo" className="capio-logo" />
         </div>
-
         <div className="capio-description">
-          Η εταιρία Capio είναι ένα ανταλλακτήριο κρυπτονομισμάτων (crypto). Η
-          έμπνευση του ονόματος προέρχεται από το λατινικό ρήμα capio που
-          σημαίνει λαμβάνω (παίρνω). Η εταιρία, αν και δραστηριοποιείται στον
-          ψηφιακό κόσμο, ενδιαφέρεται για την κοινωνία και το περιβάλλον.
+          Capio is a cryptocurrency exchange. The inspiration for the name comes
+          from the Latin verb capio which means to receive. The company,
+          although active in the digital world, is interested in society and the
+          environment.
         </div>
         <div className="capio-description">
-          Για αυτόν τον λόγο ακολουθήθηκε μια σχεδιαστική προσέγγιση, η οποία
-          συνδυάζει το τεχνολογικό με το ανθρώπινο στοιχείο. Επιπλέον η
-          χρωματική παλέτα που επιλέχθηκε δίνει έμφαση στον οικολογικό χαρακτήρα
-          της εταιρίας.
+          For this reason, a design approach was followed, which combines the
+          technological with the human element. In addition, the color palette
+          chosen emphasizes the ecological profile of the company.
         </div>
-
         <div className="cards-display">
           <div className="flip-it">Flip it &#8595;</div>
           <Flippy flipOnClick={true} flipDirection="vertical">
