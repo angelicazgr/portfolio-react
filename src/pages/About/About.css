@@ -11,33 +11,43 @@
   padding-top: 200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1.5fr repeat(3, 1fr);
+  grid-template-rows: 1fr 0.6fr 0.6fr 0.6fr;
 }
 
 .about-container div {
-  max-width: 60ch;
+  max-width: 50ch;
   line-height: 1.2;
 }
 .about-photo {
+  align-self: center;
+
   border-radius: 2%;
-  width: 350px;
+  width: 60%;
 }
 .profile-accent {
   font-family: "filmotype-wand", serif;
   color: #686ba6;
   font-size: 24px;
 }
-.adobe-icon {
+.skills-icon {
   width: 80px;
   padding: 10px;
 }
-@media only screen and (max-width: 1537px) {
+.flag-icon {
+  width: 25px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 1730px) {
   .about-container {
-    width: 85%;
-    font-size: 18px;
+    width: 65%;
   }
   .about-photo {
-    width: 70%;
-    height: 50%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1537px) {
+  .about-container {
+    font-size: 18px;
   }
 }
