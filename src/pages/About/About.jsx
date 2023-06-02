@@ -1,7 +1,12 @@
 import React from "react";
 
 import NavBar from "../../components/NavBar/NavBar";
-import myPhoto from "../../assets/about-photo.png";
+import myPhoto from "../../assets/about-me.jpg";
+import photoshop from "../../assets/adobe icons/Photoshop.svg";
+import illustrator from "../../assets/adobe icons/Illustrator.svg";
+import inDesign from "../../assets/adobe icons/InDesign.svg";
+import afterEffects from "../../assets/adobe icons/AfterEffects.svg";
+import figma from "../../assets/adobe icons/Figma.svg";
 import "./About.css";
 
 const About = () => {
@@ -11,7 +16,10 @@ const About = () => {
       <div className="about-container">
         <img src={myPhoto} alt="Angelica" className="about-photo" />
         <div className="profile">
-          <div> Junior Web Designer / Developer</div>
+          <div style={{ color: "#d9886a" }}>
+            {" "}
+            Junior Web Designer / Developer
+          </div>
           <p className="profile-accent">Who am I?</p>
           <p>
             A curious, high-energy, and self motivated graphic designer and
@@ -44,7 +52,19 @@ const About = () => {
         <div>
           <p className="profile-accent">Techincal Skills</p>
           <p>HTML, CSS, Javascript, React, Git, GitHub</p>
-          <p>Figma, Adobe Ai, Ps, Id, Ae</p>
+          <img src={photoshop} alt="photoshop icon" className="adobe-icon" />
+          <img
+            src={illustrator}
+            alt="illustrator icon"
+            className="adobe-icon"
+          />
+          <img src={inDesign} alt="inDesign icon" className="adobe-icon" />
+          <img
+            src={afterEffects}
+            alt="after Effects icon"
+            className="adobe-icon"
+          />
+          <img src={figma} alt="figma icon" className="adobe-icon" />
         </div>
         <div>
           <p className="profile-accent">Languages</p>
