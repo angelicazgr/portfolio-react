@@ -1,12 +1,14 @@
 .photobook-details {
-  padding-top: 120px;
+  padding-top: 150px;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-template-rows: repeat(6, 0.5fr);
-  grid-gap: 1%;
+  grid-template-rows: repeat(2, 0.5fr);
+  grid-column-gap: 1%;
+  grid-row-gap: 5%;
   align-items: center;
 }
 .icon-597 {
+  align-self: start;
   justify-self: end;
   grid-row: 1/-1;
 }
@@ -16,11 +18,10 @@
 
 .photobook-info {
   color: #f2ebee;
-  font-size: 20px;
-}
-
-.photobook-page {
-  padding: 10px;
+  font-size: 24px;
+  font-weight: 200;
+  max-width: 50ch;
+  line-height: 1.2;
 }
 
 .photobook-page-slide-image {

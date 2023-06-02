@@ -22,7 +22,7 @@ const Home = () => {
         <div className="home-project-grid">
           <Link to="/photobook">
             <div className="home-project-item">
-              <div className="home-project-item-title">529</div>
+              <div className="home-project-item-title">597</div>
               {/*} <div className="home-project-item-name"></div>*/}
               <div className="home-project-item-cta">Photobook</div>
             </div>
