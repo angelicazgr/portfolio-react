@@ -75,3 +75,10 @@
   height: 50px;
   color: #d9886a;
 }
+@media only screen and (max-width: 1750px) {
+  .home-project-item {
+    width: 320px;
+    height: 320px;
+    font-size: 36px;
+  }
+}
