@@ -59,6 +59,18 @@
 .capio-card:hover {
   cursor: pointer;
 }
+@media only screen and (max-width: 1780px) {
+  .capio-container {
+    width: 1650px;
+  }
+
+  .capio-stationary-img {
+    width: 1150px;
+  }
+  .capio-description {
+    max-width: 50ch;
+  }
+}
 
 @media only screen and (max-width: 1537px) {
   .capio-container {
